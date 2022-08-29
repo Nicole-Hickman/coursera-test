@@ -1,0 +1,58 @@
+body {
+    font-size: 16px;
+    color: #333333;
+    background-color: #eeeeee;
+    font-family: 'Oxygen', sans-serif;
+  }
+  h2 {
+    font-weight: 700;
+  }
+  h3 {
+    font-weight: 700;
+  }
+  .selection {
+    background-color: #bfbfbf;
+  }
+  
+  /** HEADER **/
+  #header-nav {
+    background-color: #bfbfbf;
+    border-radius: 0;
+    border: 0;
+  }
+  
+  #logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+    height: 70px;
+  }
+  
+  .navbar-brand h1 { /* Restaurant name */
+    font-family: Helvetica, Arial, sans-serif;
+    color: #333333;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  .navbar-brand p { /* Kosher cert */
+    color: #000;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+  }
+  .navbar-brand p span { /* Star-K */
+    vertical-align: middle;
+  }
+  
